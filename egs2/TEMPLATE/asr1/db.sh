@@ -194,6 +194,7 @@ KIRITAN=
 NAMINE=
 KATHBATH=downloads
 GRAMVAANI=downloads
+SPEECHMATRIX=sm_data
 
 # For only CMU TIR environment
 if [[ "$(hostname)" == tir* ]]; then
