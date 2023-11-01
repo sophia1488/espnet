@@ -53,6 +53,7 @@ if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
             --datadir "${SPEECHMATRIX}" \
             --dest data/"${part}_${src_lang}" \
             --subset $part
+        ./utils/utt2spk_to_spk2utt.pl data/${part}_${src_lang}/utt2spk > data/${part}_${src_lang}/spk2utt
     done
 fi
 
